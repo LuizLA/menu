@@ -1,0 +1,40 @@
+/* menu estrutura */
+.menu-left {
+    width: 30vw;
+    height: 100vh;
+    background-color: #fff;
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/* esse e o botao */
+.menu-left button {
+    width: 30px; /* esse e a largura */
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+
+    position: absolute;
+    top: -10px;
+    left: 400px;
+
+    font-size: 1.2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1.5s;
+}
+/* esse e o efeito passar mouse */
+.menu-left button:hover{
+    transform: scale(1.5) rotate(90deg);
+}
